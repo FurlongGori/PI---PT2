@@ -18,22 +18,22 @@ PROJETO INTEGRADOR - ANALISE DE SOLUÇÕES INTEGRADA PARA ORGANIZAÇÕES
 
     - Manual de instruções -  
 
-1* Fazer a instalação do Xampp (https://www.apachefriends.org/pt_br/index.html) 
+1* Faça a instalação do Xampp (https://www.apachefriends.org/pt_br/index.html);
 
-2* Com o control panel aberto, clique em start nas opções apache e MySQL. 
+2* Com o painel de controle aberto, clique em "start" nas opções apache e MySQL;
 
-3* Clique em Admin na mesma linha do MySQL, isso irá abrir uma pagina da web, para executar o projeto é preciso realizar a criação e configuração do banco de dados.
+3* Clique em "Admin" na mesma linha do MySQL, isso irá abrir uma página web. Para executar o projeto é preciso realizar a criação e configuração do banco de dados;
 
-4* Criar um banco de dados com nome de (db_PTI_agenda) esse nome ja esta configurado nos script do banco ou (pode criar com nome diferente do banco de dados atual desna quer altera o script para poder conectar o banco).
+4* Crie um banco de dados com o nome "db_PTI_agenda", esse nome já está configurado no script do banco de dados (ou pode ser criado com o nome diferente do banco de dados atual desde que altere o script para poder conectar o banco de dados);
 
-5* Fazer Download do projeto, Extrair a pasta copia somente a pasta (Projeto-integrador-Barbearia-PHP) e colar na pasta do XAMPP dentro da pasta HTDOCS.
+5* Faça o download do projeto e extraia a pasta (copie somente a pasta "Projeto-integrador-Barbearia-PHP" e cole na pasta do XAMPP dentro da pasta "HTDOCS");
 
-6* Com o banco de dados criado, Importar o banco de dados baixado ou executar o código na opção SQL (web) cole todo o código SQL que está no arquivo dentro da pasta DB (dentro da Pasta: Projeto-integrador-Barbearia-PHP)
+6* Com o banco de dados criado, importe o banco de dados baixado ou execute o código na opção SQL (web) e cole todo o código SQL que está no arquivo dentro da pasta DB (dentro da pasta "Projeto-integrador-Barbearia-PHP");
 
-7* Abra o navegador execute (http://localhost/Projeto-integrador-Barbearia-PHP/service/index.php)
+7* Abra o navegador e execute (http://localhost/Projeto-integrador-Barbearia-PHP/service/index.php);
 
-8* Abrindo a tela de login no roda pé acesse como não tenho conta. Clique para cadastrar, faca o cadastro e em seguida logo com usuario.
+8* Abrindo a tela de login no roda pé acesse como se não possuísse conta. Clique para cadastrar, faça o cadastro e, em seguida, faça o login com o usuário criado;
 
-9* Cadastrando com e-mail incorreto será dado mensagem de erro.
+9* Cadastrando um endereço de e-mail inválido fará com que apareça uma mensagem de erro;
 
-10* Acesse o Banco de Dados e verifique o usuario criado.
+10* Acesse o banco de dados para verificar o usuário criado.
