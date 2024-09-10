@@ -1,4 +1,9 @@
 
+Link de acesso do projeto hospedado facilitara a execução
+
+# http://apibarbearia.infinityfreeapp.com/barbearia/
+
+
 Para melhor orientação do projeto existe duas pasta 
 1º barbearia o onde esta localizada a API essa pasta deve ser Copiada e colada 
 no Xampp em HTDOC e a outra www.rar onde esta o codigo fonte do projeto.
