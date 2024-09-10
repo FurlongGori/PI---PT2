@@ -1,0 +1,39 @@
+
+Para melhor orientação do projeto existe duas pasta 
+1º barbearia o onde esta localizada a API essa pasta deve ser Copiada e colada 
+no Xampp em HTDOC e a outra www.rar onde esta o codigo fonte do projeto.
+projeto criado no CORDOVA, a pasta www precisa ser descompactada e ser colada em um projeto criado no cordova.
+Banco de dados ta na primeira pasta deve ser criado um banco de dado no xampp e importa o banco, direciona a conexão na API.  
+
+
+1 - Instalar Node Js (https://nodejs.org/en/download/)
+2 - Instalar Cordova (npm install -g cordova)
+3 - Instalar Java JDK (Use a versão do drive, mais atualizada)
+4 - Instalar o Android SDK (Use a versão do drive, mais atualizada)
+5 - Colocar no C: pasta gradle e ant-apache
+6 - Apontar para as variaveis de ambiente do windows os caminhos do gradle, ANT_HOME E JAVA_HOME, esse java colocar o caminho de onde instalou o jdk
+7 - Editar variavel do sistema Path (Caminho das pastas bin jdk, gladle e ant)
+8 - Criar uma variavel com android sdk tolls (C:\Program Files (x86)\Android\android-sdk\tools) e também a pasta platform tolls
+
+ATENÇÃO, OS PASSOS ABAIXO TALVEZ VOCÊ NÃO PRECISE, DEPENDERÁ DAS CONFIGURAÇÕES DO SEU WINDOWS, NO MEU POR EXEMPLO PRECISEI
+9 - De permissão de pasta para a pasta android sdk em C:\Program Files (x86)\Android\android-sdk
+10 - Se o seu android instalado for antes da versão 30 você vai precisar de uma pasta cmd linetools deixada nos downloads, vai precisar por ela dentro de C:\Program Files (x86)\Android\android-sdk, depois vai abrir o cmd e entrar neste caminho abaixo cd  C:\Program Files (x86)\Android\android-sdk\tools\bin ao acessar vai executar o comando sdkmanager "build-tools;30.0.3" para poder atualizar seu android da 29 para 30.
+
+LINK PARA BAIXAR OS PROGRAMAS NO DRIVE
+https://drive.google.com/drive/folders/1dadXBGY-WJT-rp-6pq008Pt3NbEIIelw?usp=sharing
+
+  CRIAR O PROJETO 
+depois de toda instalação necessaria
+cria o projeto no C:
+
+cordova create (nome do projeto)
+entra no projeto criado lá te uma pasta WWW onde sera desenvolvido o projeto 
+
+11 - Roda o projeto precisa esta dentro da pasta raiz do projero
+#cordova run browser
+
+12 - para roda com browser-sync precisa execulta o comando
+#npm install -g browser-sync 
+
+13 - dentro da pasta www no projeto execulta o comando
+#browser-sync -w -server
